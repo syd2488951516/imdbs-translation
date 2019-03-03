@@ -1,5 +1,5 @@
 ## 4.系统  
-&emsp; 在本节中，我们将深入研究四个现代主内存数据库系统。每个系统的设计和方法都不同，以解决第3章中讨论的问题。我们从4.1节开始，描述了Microsoft SQL Server的主内存OLTP擎Hekaton。然后，我们将在4.2节介绍H-Store及其商业分支VoltDB。第4.3节介绍了TU-Munich的HyPer系统，第4.4节介绍了SAP HANA。最后，我们通过总结第4.5节中其他现代商业和学术主存储系统的设计来总结本章。  
+&emsp; 在本节中，我们将深入研究四个现代内存数据库系统。每个系统的设计和方法都不同，以解决第3章中讨论的问题。我们从4.1节开始，描述了Microsoft SQL Server的主内存OLTP擎Hekaton。然后，我们将在4.2节介绍H-Store及其商业分支VoltDB。第4.3节介绍了TU-Munich的HyPer系统，第4.4节介绍了SAP HANA。最后，我们通过总结第4.5节中其他现代商业和学术主存储系统的设计来总结本章。  
 ### 4.1 SQL Server Hekaton  
 #### 4.1.1介绍  
 &emsp; Hekaton 是针对集成到 sql server 中的内存驻留数据进行优化的数据库引擎。该系统的官方名称是“In-Memory OLTP”，但通常称为Hekaton。探索和原型设计始于2009年，最初的版本发布于SQL Server 2014。功能在SQL Server 2016中得到了显着扩展，例如，通过在Hekaton表上添加列存储索引，改进了对实时分析的支持。  
